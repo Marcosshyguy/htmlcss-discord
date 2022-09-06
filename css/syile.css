@@ -24,10 +24,31 @@ body{
 .mgt{
     margin-top: 1em;
 }
-/* debug */
+
 .bg_gray{
-    background-color: lightgray;
+    background-color: #F5F5F5
 }
+
+/* button */
+.button{
+    color: black;
+    text-decoration: none;
+    background-color: #ffffff;
+    margin: 3em 1em;
+    padding: .5em 2em;
+    border-radius: 18px;
+}
+
+.button2{
+    color: white;
+    background-color: black;
+}
+
+.button3{
+    background-color: #7289DA;;
+
+}
+
 /* header */
 header{
     min-height: 100px;
@@ -92,27 +113,10 @@ nav{
     padding-bottom:2em;
 }
 
-.button-header{
-    color: black;
-    text-decoration: none;
-    background-color: #ffffff;
-    margin: 3em 1em;
-    padding: .5em 2em;
-    border-radius: 18px;
-}
-
-.button-header-2{
-    color: white;
-    background-color: black;
-}
-
-
-
-
 
 /* main */
 .section-main{
-    min-height: 400px;
+    /* min-height: 400px; */
     display: flex ;
     align-items: center;
     justify-content: center;
@@ -145,9 +149,20 @@ nav{
 }
 
 .big-description{
-    min-height: 300px;
-        /* debug */
-    background-color: #228B22;
+    /* min-height: 300px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.big-description img{
+    width: 110%;
+}
+
+.button-main{
+    
+
 }
 
 /* footer */
