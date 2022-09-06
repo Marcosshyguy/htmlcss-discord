@@ -126,17 +126,18 @@ nav{
 }
 
 .photo{
-    min-height: 300px;
-    flex-grow: 2;
-    /* debug */
-    background-color: red;
+    /* min-height: 300px; */
+    width: 60%;
+}
+
+.photo img{
+    width: 100%;
 }
 
 .text{
-    min-height: 300px;
-    flex-grow: 1;
-    /* debug */
-    background-color: lightcoral
+    /* min-height: 300px; */
+    width: 40%;
+    padding: 1em;
 }
 
 .photo2{
