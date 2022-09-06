@@ -29,6 +29,10 @@ body{
     background-color: #F5F5F5
 }
 
+.cl-title{
+    color: #5F77BD;
+}
+
 /* button */
 .button{
     color: black;
@@ -160,11 +164,6 @@ nav{
     width: 110%;
 }
 
-.button-main{
-    
-
-}
-
 /* footer */
 
 footer{
@@ -190,20 +189,36 @@ footer{
     width: 20%;
 }
 
+.italian-flag img{
+    width: 10%;
+}
+
+i{
+    margin-right: 1em;
+}
+
+/* link columns */
 .link-container{
     width: 90%;
     display: flex;
     justify-content: space-around;
-
 }
 
-.links{
+.links-column{
     margin: 0 1em;
 }
 
-.links ul{
+.links-column ul{
     list-style-type: none;
 }
+
+.links-column li{
+    margin-bottom: 1em;
+}
+
+/* .link{
+    text-decoration: none;
+} */
 
 /*  bottom footer */
 
