@@ -54,6 +54,11 @@ body{
 }
 
 /* header */
+.wave{
+    color:#5F77BD;
+    background-color: #5F77BD;
+}
+
 header{
     min-height: 100px;
     background-color: blue;
@@ -133,6 +138,11 @@ nav{
     gap: 1em;
 }
 
+.section-main::after{
+    background-image: url(../img/wave.svg);
+    height: 40px;
+}
+
 .photo{
     /* min-height: 300px; */
     width: 60%;
@@ -192,7 +202,7 @@ footer{
 }
 
 i{
-    margin-right: 1em;
+    padding: 1em 1em 1em 0;
 }
 
 /* link columns */
