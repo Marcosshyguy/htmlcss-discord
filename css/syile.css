@@ -53,12 +53,16 @@ body{
 
 }
 
-/* header */
 .wave{
-    color:#5F77BD;
-    background-color: #5F77BD;
+    vertical-align: bottom;
 }
 
+.rotation{
+
+    transform: rotatex(180deg);
+}
+
+/* header */
 header{
     min-height: 100px;
     background-color: blue;
