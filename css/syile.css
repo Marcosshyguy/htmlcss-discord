@@ -75,7 +75,7 @@ nav{
     min-height: 40px;
 }
 
-.nav-option-logo img {
+.logo-container img {
     max-width: 100px;
 }
 
@@ -170,14 +170,12 @@ footer{
     background-color: black;
     color: white;
     padding: 2em;
-    /* debug */
-    height: 500px;
 }
 
 /*  top footer */
 
 .top-footer{
-    min-height: 200px;
+    /* min-height: 200px; */
     display:flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -198,6 +196,7 @@ i{
 }
 
 /* link columns */
+
 .link-container{
     width: 90%;
     display: flex;
@@ -223,28 +222,13 @@ i{
 /*  bottom footer */
 
 .bottom-footer{
-    min-height: 50px;
-    align-items: center;
+    /* min-height: 50px; */
     margin-top:2em;
-    /* debug */
-    background-color: #7FFFD4;
+    border: none;
+   
 }
 
-.bottom-logo{
-    width: 10%;
-    padding: 1em;
-    /* debug */
-    background-color: #FFB6C1;
-    border: 1px dotted black;
-}
 
-.bottom-sign{
-    width: 10%;
-    padding: 1em;
-    /* debug */
-    background-color: #FFB6C1;
-    border: 1px dotted black;
-}
 
 
 
