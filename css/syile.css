@@ -62,6 +62,7 @@ body{
     transform: rotatex(180deg);
 }
 
+
 /* header */
 header{
     min-height: 100px;
@@ -85,7 +86,7 @@ nav{
 }
 
 .logo-container img {
-    max-width: 100px;
+    width: 100px;
 }
 
 .nav-option-link ul{
